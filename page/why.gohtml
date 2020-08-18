@@ -1,0 +1,283 @@
+{{define "style_src"}}
+
+    <!-- select to -->
+    <link href="resources/css/select2.min.css" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="resources/css/fontawesome.min.css">
+    <link rel="stylesheet" href="resources/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+
+
+{{end}}
+
+
+{{define "banner"}}
+
+    <div class="carbanner">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 carbannertext why_banner">
+            <p>Run by a team of avid automobile enthusiasts, we, at Automan, treat your vehicle like any of our own. Here’s why we should be your next maintenance request call.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="./resources/images/used-car.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+{{end}}
+
+
+{{define "custom"}}
+
+
+    {{block "whychoose_automan" .}}
+
+      <div class="container">
+
+          <div class="whychoose howtobuy">
+            <div class="container">
+              <h5>Why Choose AutoMan?</h5>
+              <p class="text-center">Best used car financing options in Bangladesh</p>
+              <div class="row whychoosestep">
+                <div class="col-sm-6">
+                  <img src="/resources/images/icon_loans_underwritten.svg" alt="" class="img-fluid">
+                  <h5>Comprehensive vehicle maintenance solutions provider:</h5>
+                  <p>Through providing services ranging from simple wash to complex electrical and mechanical work, AutoMan helps you manage, repair and maintain your vehicle by bringing all home as well as workshop services under one smart e-commerce platform.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="/resources/images/icon_finance_leasing_association.svg" alt="" class="img-fluid">
+                  <h5>Superior quality service and authentic spare parts supply:</h5>
+                  <p>Experience coupled with expertise of the Automan team along with its superior monitoring and quality control guarantees top quality of service. Direct and in house sourcing of spare parts ensures authenticity. Warranty is available both on service and spare parts.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="/resources/images/icon_industry_experience.svg" alt="" class="img-fluid">
+                  <h5>Wide Coverage:</h5>
+                  <p>Partnerships with prominent workshops all over Dhaka and quick-resolve support to extend our services far and out.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="/resources/images/icon_loan_options.svg" alt="" class="img-fluid">
+                  <h5>Competitive and transparent pricing:</h5>
+                  <p>Even though our service excellence gives us an edge over our competition, our pricing is surprisingly competitive and budget friendly.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="/resources/images/icon_financial_providers.svg" alt="" class="img-fluid">
+                  <h5>Emergency roadside assistance:</h5>
+                  <p>With our emergency roadside assistance feature, you do not have to worry about being hopelessly stranded if your vehicle breaks down in the middle of the road! Our roadside assistance also comes with towing facility.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img src="/resources/images/icon_loan_rates.svg" alt="" class="img-fluid">
+                  <h5>AUTOMAN certified pre owned cars:</h5>
+                  <p>The cars on our buying platform go through rigorous investigation and consequent certification to maintain transparency of condition and to help you make the most out of your pre owned car experience!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    {{end}}
+
+    {{block "automan_advantage" .}}
+
+      <div class="auto_advantage">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h2 class="advantage_title"><span>The</span> <span>AUTOMAN</span> <span>Advantage</span> </h2>
+            </div>
+            <div class="col-md-9">
+              <div class="table-responsive">
+                <table class="table table-striped auto_advantage_tbl">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="tal_title">Features</th>
+                      <th scope="col" class="tal_title tbl_width">AUTOMAN</th>
+                      <th scope="col" class="tbl_width">Conventional Workshops</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Services Provided by In-House Experts under Own Payroll</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Emergency Roadside Assistance & Towing Facility</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Wide Coverage Through 10+ Workshops All Over Dhaka City</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>On-Site Service & Vehicle Pick-Drop Facility</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Problem Identification At One Go – Significant Time Savings</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Direct Sourcing of Spare Parts – Genuinity & Price Benefit</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Real Warranty on Services & Parts</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Digital Integration – Online Service History/Records & Payments</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Tracking, Surveillance, Fleet Management & Maintenance Packages</td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Overbilling / Pilferage / Counterfeit Parts</td>
+                      <td class="icon"><i class="fas fa-times"></i></td>
+                      <td class="icon"><i class="fas fa-check"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {{end}}
+
+    {{block "faq" .}}
+
+    <div class="container">
+      <div class="requestfaq">
+        <div class="container">
+          <h5>Frequently Asked Questions</h5>
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Q1: How will my car be sold?
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>When you choose to sell your car through AutoMan, you will enjoy a hassle-free car selling experience with no hidden fees and no guesswork.<br><br>
+                  Here’s how it works:<br><br>
+                  <b>Step 1</b> After verifying your details, we will put your car up for Auction to our network of over 1,000 trusted dealers in Singpore. <br><br>
+                  <b>Step 2</b> Our trusted network of dealers will then bid for your car. In just 24hrs, you will be notified of the highest bid that was received.<br><br>
+                  <b>Step 3</b> If you are happy with the offer, we will help schedule a viewing/inspection together with the dealer.<br><br>
+                  But if the offer doesn’t meet your expectations, no pressure. You can choose not to sell your car and walk away, penalty-free!<br><br>
+                  Our Auctions are conducted on weekdays from 10am to 4pm, so you can get top price of the day.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Q2: Where will the viewing take place?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>When you choose to sell your car through AutoMan, you will enjoy a hassle-free car selling experience with no hidden fees and no guesswork.<br><br>
+                  Here’s how it works:<br><br>
+                  <b>Step 1</b> After verifying your details, we will put your car up for Auction to our network of over 1,000 trusted dealers in Singpore. <br><br>
+                  <b>Step 2</b> Our trusted network of dealers will then bid for your car. In just 24hrs, you will be notified of the highest bid that was received.<br><br>
+                  <b>Step 3</b> If you are happy with the offer, we will help schedule a viewing/inspection together with the dealer.<br><br>
+                  But if the offer doesn’t meet your expectations, no pressure. You can choose not to sell your car and walk away, penalty-free!<br><br>
+                  Our Auctions are conducted on weekdays from 10am to 4pm, so you can get top price of the day.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Q3: What are the fees involved to sell my car through Carro?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>When you choose to sell your car through AutoMan, you will enjoy a hassle-free car selling experience with no hidden fees and no guesswork.<br><br>
+                  Here’s how it works:<br><br>
+                  <b>Step 1</b> After verifying your details, we will put your car up for Auction to our network of over 1,000 trusted dealers in Singpore. <br><br>
+                  <b>Step 2</b> Our trusted network of dealers will then bid for your car. In just 24hrs, you will be notified of the highest bid that was received.<br><br>
+                  <b>Step 3</b> If you are happy with the offer, we will help schedule a viewing/inspection together with the dealer.<br><br>
+                  But if the offer doesn’t meet your expectations, no pressure. You can choose not to sell your car and walk away, penalty-free!<br><br>
+                  Our Auctions are conducted on weekdays from 10am to 4pm, so you can get top price of the day.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{end}}
+
+
+{{end}}
+
+
+
+
+{{define "script_src"}}
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <script src="resources/js/all.min.js"></script>
+
+{{end}}
+
+{{define "script"}}
+
+    <script>
+      function openNav3() {document.getElementById("mySidepanel3").style.width = "70%";}
+      function closeNav3() {document.getElementById("mySidepanel3").style.width = "0";}
+
+      // menu active
+      $(function(){
+        $('.menulist a').filter(function(){return this.href==location.href}).parent().addClass('menu-active').siblings().removeClass('menu-active');
+      });
+      
+      // add active class acordian
+      $(document).ready(function(){
+
+        $('.requestfaq .card-header').click(function(){
+          $('.card-header').removeClass("card-active");
+          $(this).addClass("card-active");
+        });
+        
+      });
+
+    </script>
+
+{{end}}
