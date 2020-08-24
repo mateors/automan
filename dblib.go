@@ -20,6 +20,9 @@ const (
 	DeviceLogTable    = "device_log"
 	LoginTable        = "login"
 	ActivityLogTable  = "activity_log"
+	AccessTable       = "access"
+	CompanyTable      = "company"
+	ContactTable      = "contact"
 )
 
 //CountByQuery ...
