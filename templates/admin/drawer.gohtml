@@ -1,6 +1,6 @@
 {{define "drawer"}}
     
-    {{if eq .LoginType "RETAIL"}}
+    {{if eq .LoginType "ADMIN"}}
         
         <section id="drawer">
             <aside class="mdc-drawer mdc-drawer--modal">
@@ -41,7 +41,7 @@
 
         <section id="drawer">
             <aside class="mdc-drawer mdc-drawer--modal">
-                <div class="mdc-drawer__header"><h3 class="mdc-drawer__title">{{.CompanyName}} ADMIN</h3><h6 class="mdc-drawer__subtitle">{{.CompanyWebsite}}</h6></div>
+                <div class="mdc-drawer__header"><h5 class="mdc-drawer__title">{{.CompanyName}} ADMIN</h5><h6 class="mdc-drawer__subtitle">{{.CompanyWebsite}}</h6></div>
 
                 <div class="mdc-drawer__content">
                 <nav class="mdc-list">
